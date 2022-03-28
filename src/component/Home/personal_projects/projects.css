@@ -1,0 +1,29 @@
+.latestproj{
+    margin-top: 150px;
+}
+.latestproj h2{
+    font-size: 50px;
+}
+.allproj{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.allproj div h4{
+    margin: 23px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.644);
+}
+.allproj div h4:hover{
+    color: white;
+    cursor: pointer;
+}
+.allproj div{
+    width: 33.333%;
+}
+@media (max-width:430px) {
+    .allproj div{
+        width:100%;
+    }
+}

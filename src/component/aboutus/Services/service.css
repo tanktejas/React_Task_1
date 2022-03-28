@@ -1,0 +1,53 @@
+.mainservices{
+    margin-top: 123px;
+}
+.mainservices .sss{
+    margin: 34px;
+}
+.Services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Services div{
+    width: 33.333333%;
+}
+.card{
+    margin:12px;
+     background-color: rgb(77 76 76 / 37%);
+}
+.card h2,
+.card p,
+.card svg{
+    text-align: left;
+  padding: 15px;
+}
+.card p svg{
+    color: white;
+    font-size: 76px;
+}
+.card p button{
+    background-color: transparent;
+    font-size: 23px;
+    color: white;
+    border: 2px solid transparent;
+}
+.card p button:hover{
+    cursor: pointer;
+    color: rgb(236, 127, 127);
+    
+}
+.card p svg:hover{
+    color: red;
+}
+.card:hover{
+    cursor: pointer;
+}
+@media  (max-width:864px) {
+     .Services{
+         flex-wrap: wrap;
+     }
+     .Services div{
+         width: 100%;
+        }
+}

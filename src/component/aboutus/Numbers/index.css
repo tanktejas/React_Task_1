@@ -1,0 +1,25 @@
+.allNum{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 23px;
+}
+.allNum div{
+  width: 30%;
+}
+.Numbers{
+    margin-top: 123px;
+} 
+.allNum div h2{
+    color: #fb2f13; 
+    font-size: 41px;
+}
+@media  (max-width:864px) {
+     .allNum{
+         flex-wrap: wrap;
+     }
+     .allNum div{
+         width: 100%;
+         margin-top: 34px;
+     }
+}

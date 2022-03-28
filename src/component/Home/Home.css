@@ -1,0 +1,18 @@
+.homemain{
+    padding-left: 123px;
+    padding-right: 123px;
+    margin-top: 63px;
+}
+
+@media (max-width:800px) {
+    .homemain{
+        padding-left: 62px;
+        padding-right: 32px;
+    }
+}
+@media (max-width:600px) {
+       .homemain{
+           padding-left: 62px;
+           padding-right: 32px;
+       }
+}

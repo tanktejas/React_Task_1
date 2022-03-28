@@ -1,0 +1,36 @@
+.Overview{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.Overview div{
+    width: 50%;
+}
+.left{
+    font-size: 3rem;
+    width: 50%;
+    padding-right: 23px;
+    text-align: left;
+}
+.right{
+    padding-left: 23px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 50%;
+    text-align: left;
+
+}
+.thumb{
+    text-align: left;
+}
+@media  (max-width:864px) {
+    .Overview{
+         flex-direction: column;
+         align-items: center;
+
+    }
+    .left,.right{
+        width: 100% !important;
+        margin-top: 23px;
+    }
+}

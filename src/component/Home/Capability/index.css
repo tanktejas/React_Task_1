@@ -1,0 +1,78 @@
+
+.cap{
+     display: flex;
+     justify-content:  space-between;
+    flex-wrap: wrap;
+
+}
+.cap div{
+    width: 50%;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+}
+.right1 .logos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: right;
+    width: 100%;
+}
+.left1 h2,
+.left1 p,
+.left1 button{
+padding: 12px;
+text-align: left;
+float: left;
+padding-left: 0px;
+}
+.left1 .orange{
+    color: orange;
+}
+.left1 h2{
+    font-size: 34px;
+}
+.left1 p{
+ font-size: 20px;   
+} 
+.left1 button{ 
+    float: left;
+    margin-top: 23px;
+    width: 120px;
+    height: 50px;
+    background-color: #87494985;
+    border: 2px solid black;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+.left1 button:hover{
+    background-color: black;
+    color: white;
+    cursor:  pointer;
+}
+
+.right1 .logos{
+  height: 100%;
+  margin-top: 28px;
+}
+.right1 .logos div:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 1.2s;
+    color:  black;
+}
+.right1 .logos div svg{
+    font-size: 43px;
+}
+.right1 .logos div p{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+@media (max-width:888px) {
+    .cap div{
+        width: 100%;
+    }
+}

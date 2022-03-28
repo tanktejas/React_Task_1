@@ -1,0 +1,39 @@
+.Partners{
+    margin-top: 123px;
+}
+.Partners:nth-child(1){
+    margin: 34px;
+}
+.comp{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+} 
+.comp h2{
+    color: rgba(97, 96, 96, 0.884);
+}
+.comp h2:hover{
+    color:white;
+    cursor: pointer;
+}
+.comp div{
+    width: 32.333333%;
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ @media (max-width:748px) {
+     .comp div{
+         width: 50%;
+
+     }
+     
+ }
+ @media (max-width:478px) {
+    .comp div{
+        width: 100%;
+        
+    }
+    
+}

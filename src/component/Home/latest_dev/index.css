@@ -1,0 +1,65 @@
+.latesthome{
+    margin-top: 150px; 
+    
+}
+.up{
+    height: 145px;
+    text-align: left;
+}
+.up h2{
+    font-size: 45px;
+    color: rgba(245, 53, 53, 0.767);
+}
+.up p{
+    font-size: 20px;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+ flex-wrap: wrap;
+}
+.down div{
+    width: 50%;
+}
+.down .left2 h2,
+.down .left2 p,
+.down .left2 button{
+    margin-top: 15px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+.down .left2 button{
+    float: left;
+    margin-top: 23px;
+    width: 120px;
+    height: 50px;
+    background-color: #87494985;
+    border: 2px solid black;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+.down .left2 button:hover{
+    color: white;
+    background-color: black;
+}
+.down .left2 h2{
+   font-size: 35px;
+}
+.orange{
+    color: rgb(255, 94, 0);
+}
+.right2 img{
+    width: 80%;
+    height: 80%;
+}
+@media (max-width:800px) {
+    .down div{
+        width: 100%;
+    }
+    .down div{
+        margin-top: 23px;
+    }
+}

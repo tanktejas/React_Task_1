@@ -1,0 +1,29 @@
+.Next{
+    padding: 55px;
+    background-color: #4f46e5;
+    margin-top: 123px;
+    height: 100%;
+    border-radius: 18px;
+
+}
+.Next h2{
+    text-align: left;
+    font-size: 48px;
+    margin:23px;
+}
+.Next button{
+    height: 50px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 9px;
+  margin-left: 23px;
+    float: left; 
+    font-size: 23px;
+
+}
+.Next button:hover{
+    background-color: orange;
+    cursor: pointer;
+}

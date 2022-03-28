@@ -1,0 +1,52 @@
+.lets{
+    margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  background: url('./download.jfif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  /* filter: blur(8px);  */
+  background-size: cover;
+}
+.lets div{
+    width: 50%;
+}
+.left3{
+    padding: 15px;
+}
+.left3 h2,
+.left3 p,
+.left3 button{
+text-align: left;
+float: left;
+padding: 12px;
+margin-top: 12px;
+padding-left: 0px;
+margin-left: 0px;
+}
+.left3 h2{
+    font-size: 43px;
+}
+.left3 p{
+    font-size: 23px;
+    word-spacing: 3px;
+}
+.left3 button{
+    float: left;
+    margin-top: 23px;
+    width: 120px;
+    height: 50px;
+    background-color: #87494985;
+    border: 2px solid black;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    border-radius: 4px
+}
+
+.left3 button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
