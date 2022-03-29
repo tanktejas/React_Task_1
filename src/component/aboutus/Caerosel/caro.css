@@ -223,10 +223,7 @@
   height: 100%;
   position: relative;
 }
-.carousel__slide .h1{
-  text-align: left;
-  margin-top: -136px;
-}
+ 
 .carousel__slide button:hover{ 
   cursor: pointer;
 }
@@ -334,15 +331,27 @@ h3 {
   background-size: cover;
   background-position: center;
 }
+.carousel__slide .h1 {
+  text-align: left;
+  margin-top: -202px;
+}
 @media (max-width:1010px){
+  .carousel__slide .h1 {
+    text-align: left;
+    margin-top: -302px;
+}
   .carousel__slide p {
     margin-top: 525px;
   }
 }
 @media (max-width:847px){
-  .carousel__slide h1, .carousel__slide p {
-    width: 90%;
+  .carousel__slide .h1{
+     font-size: 34px !important;
   }  
+  .carousel__slide p,
+  .carousel__slide h1{
+    width: 100%;
+  }
   .carousel__slide p {
     margin-top: 895px;
 }
