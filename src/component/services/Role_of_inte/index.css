@@ -1,0 +1,10 @@
+.role{
+    margin-left: 123px;
+}
+@media (max-width:800px) {
+    .role{
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+}

@@ -32,7 +32,35 @@ function NavBar() {
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Services
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                About Uniolabs
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/services"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                <select>
+                  <option>Artificial intelligence</option>
+
+                  <option>Embedded Systems</option>
+                  <option>Internet of Things</option>
+                  <option>Product R&D</option>
+                </select>
               </NavLink>
             </li>
             <li className="nav-item">
@@ -55,17 +83,6 @@ function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 Careers
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                About Uniolabs
               </NavLink>
             </li>
           </ul>

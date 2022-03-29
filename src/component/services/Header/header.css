@@ -1,0 +1,44 @@
+.headservices{
+    background: url('./caero.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.headservices div{
+    padding: 33px;
+    width: 50%;
+}
+.headservices div h2{
+    font-size: 34px;
+
+}
+.headservices div p{
+    margin-top: 12px;
+    font-size: 22px;
+}
+.sernav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(80, 77, 77, 0.459);
+}
+.sernav a{
+    margin: 10px;
+    padding: 4px;
+    font-size: 22px;
+   color:  rgba(255, 255, 255, 0.493);
+}
+.sernav a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+
+    .upp{
+        width: 100% !important;
+    }
+}

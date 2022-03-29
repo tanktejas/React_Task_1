@@ -29,7 +29,21 @@
   top: 0;
   z-index: 20;
 }
-
+select,option{
+  background-color: transparent;
+  color: white;
+  font-size: 19px;
+  border: 2 px solid transparent;
+  
+}
+option{
+  background-color: transparent !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px !important;
+  background-color: black !important; 
+  border: 2 px solid transparent !important;
+  
+}
 .nav-container {
   display: flex;
   justify-content: center;

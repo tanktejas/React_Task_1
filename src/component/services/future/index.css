@@ -1,0 +1,36 @@
+.fut{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   margin-left: 123px;
+   margin-right: 123px;
+
+}
+.fut div{
+    width: 50%;
+   
+}
+.fut div img{
+    height: 70%;
+    width: 50%;
+}
+.fut div h2{
+    font-size: 34px;
+    padding: 12px;
+    color: orangered;
+}
+.fut div p{
+    font-size: 17px;
+    padding: 12px;
+}
+
+@media (max-width:800px) {
+    .fut div{
+        width: 100% !important;
+    }
+    .fut{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
